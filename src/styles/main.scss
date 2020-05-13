@@ -29,10 +29,11 @@ h2 {
 }
 
 .persons__card {
+  justify-self: center;
   position: relative;
   padding: 12px 12px 19px;
   width: 224px;
-  height: 246px;
+  max-height: 246px;
 
   overflow: hidden;
 
@@ -57,18 +58,6 @@ h2 {
   }
 }
 
-.persons__img {
-  display: block;
-  width: 200px;
-  height: 200px;
-  margin-bottom: 10px;
-  border-radius: 50%;
-}
-
-.persons__card:hover .persons__img {
-  border-radius: 50px;
-}
-
 .persons__card:hover .persons {
   overflow: visible;
 }
@@ -81,6 +70,18 @@ h2 {
 
   background-color: #eee;
   cursor: pointer;
+}
+
+.persons__img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.persons__card:hover .persons__img {
+  border-radius: 50px;
 }
 
 .persons__name {
