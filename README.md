@@ -1,1 +1,1 @@
-- [DEMO LINK](https://denkondratiev.github.io/gulp__template/)
+- [DEMO LINK](https://denkondratiev.github.io/athletes__card/)
