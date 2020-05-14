@@ -59,7 +59,7 @@ h2 {
   z-index: -1;
 }
 
-.person:hover .person::before {
+.person:hover::before {
   opacity: 1;
 }
 
@@ -72,6 +72,11 @@ h2 {
   height: auto;
   margin-bottom: 8px;
   border-radius: 50%;
+  transition: border-radius 1s ease;
+}
+
+.person:hover .person__img {
+  border-radius: 60px;
 }
 
 .person__name {
